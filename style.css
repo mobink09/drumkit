@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000839;
+}
+
+#title {
+    text-align: center;
+    margin: 4% 0 0 0;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow:2px 2px 4px #ff0000, 0 0 5px #0000ff;
+}
+
+
+.set {
+    width: 80%;
+    margin: 12% auto;
+    text-align: center;
+}
+
+.drum {
+    width: 100px;
+    margin:1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    height: 100px;
+    border: 5px solid black;
+   
+}
+
+.w{
+    background-image: url('images/tom1.png');
+}
+.a {
+    background-image: url('images/tom2.png');
+}
+.s {
+    background-image: url('images/tom3.png');
+}
+.d {
+    background-image: url('images/tom4.png');
+}
+.j {
+    background-image: url('images/snare.png');
+}
+.k {
+    background-image: url('images/crash.png');
+}
+
+.l{
+    background-image: url('images/kick.png');
+}
+
+.instrument{
+    width: 100%;
+}
+
+footer {
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    text-shadow:2px 2px 4px #ff0000, 0 0 5px #0000ff;
+    font-size: 1.2rem;
+}
+
+.pressed {
+    opacity:0.6 ;
+}
+
+@media(max-width: 500px){
+    .drum{
+        width: 55px;
+        height: 55px;
+        margin: 0.5%;
+    }
+
+    .set{
+        width: 90%;
+        margin: 15% auto;
+    }
+    #title{
+        margin: 8% 0 0 0;
+        font-size: 3rem;
+    }
+}
